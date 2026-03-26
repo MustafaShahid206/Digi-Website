@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | DigiStitch Studio</title>
+  <meta name="description" content="Contact DigiStitch Studio for embroidery digitizing, vector conversion, and patch design inquiries. Request a quote today." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="logo-wrap" href="index.html"><img src="assets/images/logo.svg" alt="DigiStitch Studio logo mark" /><span>DigiStitch Studio</span></a><button class="nav-toggle" data-nav-toggle aria-expanded="false">Menu</button><nav class="main-nav" data-main-nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a class="active" href="contact.html">Contact</a></nav></div></header>
+<main class="page-section">
+  <div class="container card-grid" style="grid-template-columns: 1fr;">
+    <section class="card">
+      <div class="card-body">
+        <h1>Contact Us</h1>
+        <p>Email: hello@digistitchstudio.com</p>
+        <p>Phone: +1 (555) 286-4410</p>
+        <p>Business hours: Monday–Saturday, 8:00 AM–8:00 PM (EST)</p>
+        <p>Location: Serving clients remotely across the U.S. from Dallas, Texas.</p>
+      </div>
+    </section>
+    <section>
+      <form action="#" method="post" data-contact-form novalidate>
+        <h2>Inquiry Form</h2>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+        <div class="error-text" data-error-for="name"></div>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+        <div class="error-text" data-error-for="email"></div>
+
+        <label for="company">Company</label>
+        <input id="company" name="company" type="text" autocomplete="organization" />
+
+        <label for="service">Service Type</label>
+        <select id="service" name="service" required>
+          <option value="">Select one</option>
+          <option value="digitizing">Embroidery Digitizing</option>
+          <option value="vector">Vector Art Conversion</option>
+          <option value="patch">Custom Patch Design</option>
+        </select>
+        <div class="error-text" data-error-for="service"></div>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="error-text" data-error-for="message"></div>
+
+        <button class="btn btn-primary" type="submit">Send Inquiry</button>
+        <p class="form-status" data-form-status aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div><strong>DigiStitch Studio</strong><p>Email: hello@digistitchstudio.com • Phone: +1 (555) 286-4410</p><p>Instagram: <a href="#">@digistitchstudio</a> • Facebook: <a href="#">DigiStitch Studio</a></p></div><p>© 2026 DigiStitch Studio. All rights reserved.</p></div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
